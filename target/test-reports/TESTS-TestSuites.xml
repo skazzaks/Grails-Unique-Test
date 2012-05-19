@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="devon-BaseInstall" id="0" name="UserSpec" package="" tests="3" time="0.569" timestamp="2012-05-19T02:41:52">
+      <properties />
+
+      <testcase classname="UserSpec" name="user creation" time="0.428" />
+
+      <testcase classname="UserSpec" name="username is not null" time="0.069" />
+
+      <testcase classname="UserSpec" name="username is unique" time="0.051">
+          <failure message="Expected exception grails.validation.ValidationException, but no exception was thrown" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:232)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from user creation--
+--Output from username is not null--
+--Output from username is unique--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from user creation--
+--Output from username is not null--
+--Output from username is unique--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

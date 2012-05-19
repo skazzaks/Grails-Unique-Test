@@ -1,0 +1,22 @@
+Testsuite: UserSpec
+Tests run: 3, Failures: 1, Errors: 0, Time elapsed: 0.569 sec
+------------- Standard Output ---------------
+--Output from user creation--
+--Output from username is not null--
+--Output from username is unique--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from user creation--
+--Output from username is not null--
+--Output from username is unique--
+------------- ---------------- ---------------
+
+Testcase: user creation took 0.428 sec
+Testcase: username is not null took 0.069 sec
+Testcase: username is unique took 0.049 sec
+	FAILED
+Expected exception grails.validation.ValidationException, but no exception was thrown
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:232)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+

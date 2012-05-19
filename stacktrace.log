@@ -1,0 +1,147 @@
+2012-01-10 15:59:03,043 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:12)
+2012-01-10 15:59:03,045 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:12)
+2012-01-10 15:59:03,054 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:12)
+2012-01-10 15:59:03,054 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:12)
+2012-01-10 16:00:24,886 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:12)
+2012-01-10 16:00:24,889 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:12)
+2012-01-10 16:00:24,896 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:12)
+2012-01-10 16:00:24,896 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:12)
+2012-01-10 16:02:33,810 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but got groovy.lang.MissingPropertyException
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is not null(UserSpec.groovy:17)
+2012-01-10 16:02:33,812 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but got groovy.lang.MissingPropertyException
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is not null(UserSpec.groovy:17)
+2012-01-10 16:02:33,817 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but got groovy.lang.MissingPropertyException
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is not null(UserSpec.groovy:17)
+2012-01-10 16:02:33,817 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but got groovy.lang.MissingPropertyException
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is not null(UserSpec.groovy:17)
+2012-01-10 16:02:33,832 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-01-10 16:02:33,832 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-01-10 16:02:33,832 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-01-10 16:02:33,832 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-01-10 16:05:28,549 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'User' on field 'name': rejected value [null]; codes [User.name.nullable.error.User.name,User.name.nullable.error.name,User.name.nullable.error.java.lang.String,User.name.nullable.error,user.name.nullable.error.User.name,user.name.nullable.error.name,user.name.nullable.error.java.lang.String,user.name.nullable.error,User.name.nullable.User.name,User.name.nullable.name,User.name.nullable.java.lang.String,User.name.nullable,user.name.nullable.User.name,user.name.nullable.name,user.name.nullable.java.lang.String,user.name.nullable,nullable.User.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:182)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:63)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormEnhancer.groovy:882)
+	at org.grails.datastore.gorm.InstanceMethodInvokingClosure.call(GormEnhancer.groovy:251)
+	at UserSpec.user creation(UserSpec.groovy:8)
+2012-01-10 16:05:28,551 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'User' on field 'name': rejected value [null]; codes [User.name.nullable.error.User.name,User.name.nullable.error.name,User.name.nullable.error.java.lang.String,User.name.nullable.error,user.name.nullable.error.User.name,user.name.nullable.error.name,user.name.nullable.error.java.lang.String,user.name.nullable.error,User.name.nullable.User.name,User.name.nullable.name,User.name.nullable.java.lang.String,User.name.nullable,user.name.nullable.User.name,user.name.nullable.name,user.name.nullable.java.lang.String,user.name.nullable,nullable.User.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at org.grails.datastore.gorm.InstanceMethodInvokingClosure.call(GormEnhancer.groovy:251)
+	at UserSpec.user creation(UserSpec.groovy:8)
+2012-01-10 16:05:28,559 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'User' on field 'name': rejected value [null]; codes [User.name.nullable.error.User.name,User.name.nullable.error.name,User.name.nullable.error.java.lang.String,User.name.nullable.error,user.name.nullable.error.User.name,user.name.nullable.error.name,user.name.nullable.error.java.lang.String,user.name.nullable.error,User.name.nullable.User.name,User.name.nullable.name,User.name.nullable.java.lang.String,User.name.nullable,user.name.nullable.User.name,user.name.nullable.name,user.name.nullable.java.lang.String,user.name.nullable,nullable.User.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at org.grails.datastore.gorm.InstanceMethodInvokingClosure.call(GormEnhancer.groovy:251)
+	at UserSpec.user creation(UserSpec.groovy:8)
+2012-01-10 16:05:28,559 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'User' on field 'name': rejected value [null]; codes [User.name.nullable.error.User.name,User.name.nullable.error.name,User.name.nullable.error.java.lang.String,User.name.nullable.error,user.name.nullable.error.User.name,user.name.nullable.error.name,user.name.nullable.error.java.lang.String,user.name.nullable.error,User.name.nullable.User.name,User.name.nullable.name,User.name.nullable.java.lang.String,User.name.nullable,user.name.nullable.User.name,user.name.nullable.name,user.name.nullable.java.lang.String,user.name.nullable,nullable.User.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at org.grails.datastore.gorm.InstanceMethodInvokingClosure.call(GormEnhancer.groovy:251)
+	at UserSpec.user creation(UserSpec.groovy:8)
+2012-01-10 16:05:28,611 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but got groovy.lang.MissingPropertyException
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is not null(UserSpec.groovy:17)
+2012-01-10 16:05:28,611 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but got groovy.lang.MissingPropertyException
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is not null(UserSpec.groovy:17)
+2012-01-10 16:05:28,612 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but got groovy.lang.MissingPropertyException
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is not null(UserSpec.groovy:17)
+2012-01-10 16:05:28,612 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but got groovy.lang.MissingPropertyException
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is not null(UserSpec.groovy:17)
+2012-01-10 16:07:31,464 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-01-10 16:07:31,466 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-01-10 16:07:31,473 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-01-10 16:07:31,473 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:231)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-05-18 22:41:53,234 [main] ERROR StackTrace  - Full Stack Trace:
+Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:232)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-05-18 22:41:53,237 [main] ERROR StackTrace  - Full Stack Trace:
+Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:232)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-05-18 22:41:53,253 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:232)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-05-18 22:41:53,253 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:232)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-05-18 22:41:53,258 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:232)
+	at UserSpec.username is unique(UserSpec.groovy:26)
+2012-05-18 22:41:53,258 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Expected exception grails.validation.ValidationException, but no exception was thrown
+	at spock.lang.Specification.thrown(Specification.java:232)
+	at UserSpec.username is unique(UserSpec.groovy:26)

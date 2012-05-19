@@ -1,0 +1,3 @@
+--Output from user creation--
+--Output from username is not null--
+--Output from username is unique--
